@@ -71,7 +71,9 @@ function update() {
     //условия окончания игры
     if (snakeX < 0 || snakeX > cols * blockSize || snakeY < 0 || snakeY > rows * blockSize) {
         gameOver = true;
-        alert("Игра окончена");
+        //alert("Игра окончена");
+        if(alert('Игра окончена')){}
+else    window.location.reload();
     }
 
     for (let i = 0; i < snakeBody.length; i++) {
