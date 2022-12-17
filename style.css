@@ -2,3 +2,14 @@ body {
     font-family: 'Coureir New', Courier, monospace;
     text-align: center;
 }
+
+.block-scores {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
